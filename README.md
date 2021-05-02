@@ -1,11 +1,12 @@
 <h1>React</h1>
 
 <h2>Summary</h2>
+
 <!--ts-->
 * [Minhas Considerações / My Considerations](#minhas-considerações--my-considerations)
-* [Tipos de Componentes / Types of Components] (#tipos-de-componentes--types-of-components)
-* [Formas de retornar / Form of return] (#formas-de-retornar--form-of-return)
-* [Fonts] (#fonts)
+* [Tipos de Componentes / Types of Components](#tipos-de-componentes--types-of-components)
+* [Formas de retornar / Form of return](#formas-de-retornar--form-of-return)
+* [Fonts](#fonts)
 <!--te-->
 
 <h2>Minhas Considerações / My Considerations</h2>
