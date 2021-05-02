@@ -1,70 +1,138 @@
-# Getting Started with Create React App
+#React
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+    PT:
+    🗨 - Exemplos fáceis para praticar Function e Arrow Function;
+    🗨 - Noções básicas de exportação e importação;
+    🗨 - Diferentes exemplos de componentes:
+        📌 Componente normal;
+        📌 Componente com condição;
+        📌 Componente com filhos;
+        📌 Componente com parâmetros;
+        📌 Componente com repetição;
+    🗨 - Algumas mais dicas para deixar seu código mais curto.
 
-## Available Scripts
+    EN:
+    🗨 - Easy Examples to practices Functions and Arrow Functions;
+    🗨 - Basic Smattering of Export and Import;
+    🗨 - Different examples of components:
+        📌 Normal Component;
+        📌 Component with Condition;
+        📌 Component with Children;
+        📌 Component with params;
+        📌 Component with repetition;
+    🗨 - Some tips to be your code more short.
 
-In the project directory, you can run:
+#Tipos de Componentes / Types of Components
 
-### `yarn start`
+- Completa:
+```jsx
+import React from 'react'
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+function Primeiro() {
+	return
+		<>
+			<h1>Example</h1>
+			<h2>Example</h2>
+		</>
+}
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+export default Primeiro
+```
 
-### `yarn test`
+- Example 2:
+*"Exportando e criando a function".*
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+```jsx
+import React from 'react'
 
-### `yarn build`
+export default function Primeiro() {
+	return
+		<>
+			<h1>Example</h1>
+			<h2>Example</h2>
+		</>
+}
+```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- Example 2 (Arrow Function):
+*"Instanciamos em uma constante e retornamos ela. Obs.: Devemos importar in { }"*
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+```jsx
+import React from 'react'
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+const Primeiro = () => {
+	return (
+		<>
+			<h1>Example</h1>
+			<h2>Example</h2>
+		</>
+  )
+}
 
-### `yarn eject`
+export {Primeiro}
+```
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+- Example 2 (Arrow Function):
+*"Exportamos a constante no mesmo momento que a criamos. Obs.: Devemos importar in { }"*
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+```jsx
+import React from 'react'
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+export const Primeiro = () => {
+	return (
+		<>
+			<h1>Example</h1>
+			<h2>Example</h2>
+		</>
+  )
+}
+```
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+- Example 3 (Arrow Function):
+*"Exportamos uma Arrow Function não nomeada, e a nomeamos na importação."*
+"*Irá apresentar alertas que está maneira não é segura. Recomendando que nomeie antes de importar."*
 
-## Learn More
+```jsx
+import React from 'react'
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+export default () => {
+	return (
+		<>
+			<h1>Example</h1>
+			<h2>Example</h2>
+		</>
+  )
+}
+```
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+- Example 4 (Arrow Function):
+*"Exportamos uma Arrow Function não nomeada, e a nomeamos na importação."*
+"*Irá apresentar alertas que está maneira não é segura. Recomendando que nomeie antes de importar."*
 
-### Code Splitting
+```jsx
+import React from 'react'
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+export default () =>
+		<>
+			<h1>Example</h1>
+			<h2>Example</h2>
+		</>
+```
+#Formas de retornar / Form of return
 
-### Analyzing the Bundle Size
+```jsx
+import React from 'react'
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+function Primeiro() {
+	return
+		<>
+			<h1>Example</h1>
+			<h2>Example</h2>
+		</>
+}
 
-### Making a Progressive Web App
+export default Primeiro
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+#Fonts
+    https://youtu.be/XQxitgyZ_S4
