@@ -1,5 +1,12 @@
-#React
+<h1>React</h1>
 
+<h2>Summary</h2>
+- Minhas Considerações / My Considerations
+- Tipos de Componentes / Types of Components
+- Formas de retornar / Form of return
+- Fonts
+
+<h2>Minhas Considerações / My Considerations</h2>
     PT:
     🗨 - Exemplos fáceis para praticar Function e Arrow Function;
     🗨 - Noções básicas de exportação e importação;
@@ -12,7 +19,7 @@
     🗨 - Algumas mais dicas para deixar seu código mais curto.
 
     EN:
-    🗨 - Easy Examples to practices Functions and Arrow Functions;
+    🗨 - Easy Examples to practice Functions and Arrow Functions;
     🗨 - Basic Smattering of Export and Import;
     🗨 - Different examples of components:
         📌 Normal Component;
@@ -20,9 +27,9 @@
         📌 Component with Children;
         📌 Component with params;
         📌 Component with repetition;
-    🗨 - Some tips to be your code more short.
+    🗨 - Some tips to make your code more shorter.
 
-#Tipos de Componentes / Types of Components
+<h2>Tipos de Componentes / Types of Components</h2>
 
 - Completa:
 ```jsx
@@ -118,7 +125,41 @@ export default () =>
 			<h2>Example</h2>
 		</>
 ```
-#Formas de retornar / Form of return
+<h2>Formas de retornar / Form of return</h2>
+"*Lembrando em react sempre precisamos devolver 1 elemento e não 2, por isso colocamos quando houver 2 ou mais elementos dentro de 1 só para retornar."*
+- "< Div >" normal :
+
+```jsx
+import React from 'react'
+
+function Primeiro() {
+	return
+		<div>
+			<h1>Example</h1>
+			<h2>Example</h2>
+		</div>
+}
+
+export default Primeiro
+```
+
+- "< React.Fragment >" :
+
+```jsx
+import React from 'react'
+
+function Primeiro() {
+	return
+		<React.Fragment>
+			<h1>Example</h1>
+			<h2>Example</h2>
+		</React.Fragment>
+}
+
+export default Primeiro
+```
+
+- "<>" :
 
 ```jsx
 import React from 'react'
@@ -134,5 +175,5 @@ function Primeiro() {
 export default Primeiro
 ```
 
-#Fonts
+<h1>Fonts<h1>
     https://youtu.be/XQxitgyZ_S4
