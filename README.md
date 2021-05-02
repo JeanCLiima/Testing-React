@@ -10,6 +10,7 @@
 <!--te-->
 
 <h2>Minhas Considerações / My Considerations</h2>
+
     PT:
     🗨 - Exemplos fáceis para praticar Function e Arrow Function;
     🗨 - Noções básicas de exportação e importação;
