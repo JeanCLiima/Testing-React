@@ -1,5 +1,5 @@
-import "./App.css"
 import React from 'react'
+import {App} from './styles'
 
 import Card from "./Components/layout/card"
 import Primeiro from "./Components/Primeiro"
@@ -10,7 +10,7 @@ import Condicional from "./Components/Condicional"
 import CondicionalComIf from "./Components/CondicionalComIf"
 
 export default (props) => (
-  <div className="App">
+  <App>
     <Card titulo = "#06 - Condicional v2">
       <CondicionalComIf numero ={11}/>
     </Card>
@@ -36,5 +36,5 @@ export default (props) => (
     <Card titulo = "#01 - Primeiro Componente">
       <Primeiro/>
     </Card>
-  </div>
+  </App>
 )

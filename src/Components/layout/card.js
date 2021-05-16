@@ -1,12 +1,13 @@
-import "./card.css"
 import React from 'react'
 
+import {Card, Conteudo, Footer} from "./styles";
+
 export default props =>
-  <div className="Card">
-    <div className="Conteudo">
+  <Card>
+    <Conteudo>
       {props.children}
-    </div>
-    <div className="Footer">
+    </Conteudo>
+    <Footer>
       {props.titulo}
-    </div>
-  </div>
+    </Footer>
+  </Card>
